@@ -22,7 +22,8 @@ Execute o script.
 php formatador.php
 ```
 
-O resultado será exibido na tela e também será salvo no arquivo recurso.txt.
+O resultado será exibido na tela.
+Copie o resultado e cole no seu arquivo Resource.php
 
 obs: sua tabela devera ter pelo menos um registro!
 
