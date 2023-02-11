@@ -3,10 +3,8 @@ Este script tem como objetivo pegar as colunas de uma tabela e formatá-las para
 
 <h2>Instalação</h2>
 Clone este repositório em sua máquina local.
-bash
-```console
-foo@bar:~$ whoami
-foo
+```bash
+git clone https://github.com/LuanMacedo074/Formata-o-de-Colunas-de-Tabela-para-Recurso-Laravel.git
 ```
 Entre na pasta do projeto.
 bash
