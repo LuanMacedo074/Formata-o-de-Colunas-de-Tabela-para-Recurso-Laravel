@@ -3,23 +3,26 @@ Este script tem como objetivo pegar as colunas de uma tabela e formatá-las para
 
 <h2>Instalação</h2>
 Clone este repositório em sua máquina local.
+
 ```bash
-git clone https://github.com/LuanMacedo074/Formata-o-de-Colunas-de-Tabela-para-Recurso-Laravel.git
+git clone https://github.com/LuanMacedo074/Formatador-de-Colunas-de-Tabela-para-Recurso-Laravel
 ```
+
 Entre na pasta do projeto.
-bash
-Copy code
-cd formatar-colunas-tabela-recurso-laravel
-Instale as dependências do projeto.
-Copy code
-composer install
-<h2>Uso</h2>
-Copie as colunas da sua tabela e cole no arquivo colunas.txt.
+
+```bash
+cd Formatador-de-Colunas-de-Tabela-para-Recurso-Laravel
+```
+
+Configure o arquivo formatador.php com seu editor de texto favorito
 
 Execute o script.
 
-Copy code
-php formatar.php
+```bash
+php formatador.php
+```
+
 O resultado será exibido na tela e também será salvo no arquivo recurso.txt.
-Contribuindo
-Se você deseja contribuir para este projeto, basta abrir uma pull request com suas sugestões. Todas as contribuições são bem-vindas!
+
+obs: sua tabela devera ter pelo menos um registro!
+
