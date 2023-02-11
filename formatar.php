@@ -33,7 +33,7 @@ class DB extends PDO
     }
 }
 
-function teste($db, $name){
+function select($db, $name){
     $teste = $db->runQuery("select * from $name limit 1;", []);
     return array_keys($teste[0]);
 };
@@ -51,7 +51,7 @@ function snakeToCamelCase($string, $capitalizeFirstCharacter = false)
 }
 
 $db = new DB;
-$arr = teste($db, $name);
+$arr = select($db, $name);
 foreach($arr as $colum){
     if (strpos($colum, '_')){
         $camelCase = snakeToCamelCase($colum);
