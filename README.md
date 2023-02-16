@@ -15,6 +15,8 @@ cd Formatador-de-Colunas-de-Tabela-para-Recurso-Laravel
 ```
 
 Configure o arquivo formatador.php com seu editor de texto favorito
+Altere as configurações do banco de dados 
+Altera a váriavel "$name" para o nome de sua tabela
 
 Execute o script.
 
