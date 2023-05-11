@@ -21,7 +21,7 @@ Altera a váriavel "$name" para o nome de sua tabela
 Execute o script.
 
 ```bash
-php formatador.php
+php formatar.php
 ```
 
 O resultado será exibido na tela.
